@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<!-- by RAY VENENOSO -->
+<html>
+<head>
+    <title>YOOZ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/site-icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top navbar-transparent">
+    <div class="container">
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			    <span class="navbar-toggler-icon">
+			    	<i class="fas fa-bars"></i>
+			    </span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/yooz-logo-218.png" class="site-logo"></a>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><span>À propos</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pubg.html"><span>Forfait PUBG</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bundles.html"><span>Forfaits Mobiles</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="retail.html"><span>Services</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="partnerships.html"><span>Récompenses</span></a>
+                </li>
+                <!--li class="nav-item nav-search">
+                  <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                </li-->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="home-header new-banner">
+
+    <div class="world-cup-banner">
+<!--        <img src="images/qatar/Imagede-garde.png" alt="yooz-world-cup-banner" class="banner-bg">-->
+        <video autoplay muted loop class="banner-bg" id="bg-video">
+            <source src="videos/challenge-yooz-ar.mp4" type="video/mp4">
+        </video>
+        <div class="banner-flags">
+            <img src="images/qatar/Drapeau.png" alt="yooz-world-cup-flags">
+            <img src="images/qatar/Drapeau.png" alt="yooz-world-cup-flags">
+            <img src="images/qatar/Drapeau.png" alt="yooz-world-cup-flags">
+            <img src="images/qatar/Drapeau.png" alt="yooz-world-cup-flags">
+        </div>
+        <div class="share-and-win">
+            <a href="#share-and-win">
+                <img src="images/qatar/Partage-et-Gagne.png" alt="partage et gagne">
+            </a>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="z-index: 200; position: relative; pointer-events: none;">
+            <div class="col-md-7 yooz-boutoula" >
+                <div class="home-headline">
+                    <img src="images/qatar/3iche-el-boutoula.png" alt="3iche-el-boutoula">
+                    <img src="images/qatar/Yooz-By-Ooredoo.png" alt="Yooz-By-Ooredoo">
+                    <div class="download-container no-bottom-margin" style="pointer-events: visible;">
+                        <a href="https://play.google.com/store/apps/details?id=dz.ooredoo.ibiza" class="btn-download">
+                            <img src="images/download-googleplay.png">
+                        </a>
+                        <!--a href="#" class="btn-download">
+                            <img src="images/download-appstore.png">
+                        </a-->
+                        <a href="https://appgallery.huawei.com/#/app/C103964575?sharePrepath=ag&amp%3Blocale=fr_FR&amp%3Bsource=appshare&amp%3Bsubsource=C103964575"
+                           class="btn-download last">
+                            <img src="images/download-huaweiappgallery.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="home-segment-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/home-label-1.png" class="img-fit img-center">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-7">
+                <div class="home-segment-2-content">
+                    <p>Bien plus qu’une application mobile, YOOZ est une expérience digitale inédite, qui te permettra
+                        de composer tes forfaits selon ton besoin, d’accéder à un contenu digital exclusif et de
+                        profiter d’avantages exceptionnels !</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-container">
+            <div class="mobile-dummy">
+                <div class="mobile-video-container">
+                    <div class="mobile-video-inner">
+                        <video controls id="yooz-vid">
+                            <source src="videos/challenge-yooz-ar.mp4" type="video/mp4">
+                        </video>
+                        <img src="images/qatar/mobile-cover-play.png" alt="yooz-vid-cover" id="yooz-vid-cover"
+                             class="video-cover">
+                    </div>
+                </div>
+                <img src="images/qatar/Mobile-frame.png" class="img-fit img-center mobile-frame">
+
+            </div>
+        </div>
+
+        <div class="home-features">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="home-feature-item">
+                        <div class="home-feature-item-inner">
+                            <img src="images/home-icon-1.png">
+                            <h3>Une nouvelle expériance digitale</h3>
+                            <p>Prends le contrôle !<br/>Personnaliser vos forfaits et adaptez-les à vos besoins. Avec
+                                YOOZ, c'est vous qui décidez</p>
+                        </div>
+                        <a href="#experience" class="btn-discover">Découvrir</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="home-feature-item">
+                        <div class="home-feature-item-inner">
+                            <img src="images/home-icon-2.png">
+                            <h3>Des contenus<br/>exclusifs</h3>
+                            <p>Musique, Streaming & Gaming!<br>les derniers sons, les meilleurs films et les tops jeux
+                                mobiles toujours à portée de main.</p>
+                        </div>
+                        <a href="#exclusives" class="btn-discover">Découvrir</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="home-feature-item">
+                        <div class="home-feature-item-inner">
+                            <img src="images/home-icon-3.png">
+                            <h3>Des récompenses <br/>inédites</h3>
+                            <p>YOOZ s'adapte à vos besoins et vous offre des réductions exceptionnelles sur vos marques
+                                préférées</p>
+                        </div>
+                        <a href="#partners" class="btn-discover">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-segment-3">
+    <div class="cover-top-1-container">
+        <img src="images/cover-top-1.png" class="img-fit">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="home-segment-3-content">
+                    <h2>Comment ça marche ?</h2>
+                    <p>Rejoins vite ROOGY et la communauté YOOZ, pour vivre une expérience digitale sans précédent !</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="home-mascot-2-container">
+                    <img src="images/home-mascot-2.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cover-bottom-2-container">
+    <img src="images/cover-bottom-2.png" class="img-fit">
+</div>
+
+<div class="home-segment-4">
+    <div class="container">
+
+        <div class="row tella3-el-mode">
+            <div class="col-md-6 roogy-staning">
+                <img src="images/qatar/Roogy-03.png" alt=Roogy-standing"">
+            </div>
+            <div class="col-md-6 mode-steps">
+				<div class="home-how-item">
+					<div class="home-how-item-header">
+						<img src="images/home-num-1.png">
+						<h3>Achète ta SIM</h3>
+					</div>
+					<div class="home-how-item-content">
+						<img src="images/home-slider-content-1.png" class="img-fit">
+					</div>
+				</div>
+				<div class="home-how-item">
+					<div class="home-how-item-header">
+						<img src="images/home-num-2.png">
+						<h3>Télécharge l’application</h3>
+					</div>
+					<div class="home-how-item-content">
+						<img src="images/yooz-logo-500.png" class="img-fit">
+						<div class="download-container">
+							<a href="https://play.google.com/store/apps/details?id=dz.ooredoo.ibiza" class="btn-download">
+								<img src="images/download-googleplay.png">
+							</a>
+							<!--a href="#" class="btn-download">
+                                <img src="images/download-appstore.png">
+                            </a-->
+							<a href="https://appgallery.huawei.com/#/app/C103964575?sharePrepath=ag&amp%3Blocale=fr_FR&amp%3Bsource=appshare&amp%3Bsubsource=C103964575" class="btn-download last">
+								<img src="images/download-huaweiappgallery.png">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="home-how-item">
+					<div class="home-how-item-header">
+						<img src="images/home-num-3.png">
+						<h3>Tella3 el mode</h3>
+					</div>
+					<div class="home-how-item-content">
+						<img src="images/home-slider-content-2.png" class="img-fit">
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-segment-5" id="experience">
+    <div class="container">
+
+    </div>
+    <div class="home-shape-1-container">
+        <img src="images/home-shape-1.png" class="img-fit" style="transform: scaleX(-1)">
+    </div>
+</div>
+
+
+<div class="home-segment-10" id="exclusives">
+    <!--div class="home-shape-2-container">
+        <img src="images/home-shape-2.png" class="img-fit">
+    </div-->
+    <div class="container">
+        <div class="home-segment-10-inner">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <div class="home-label-10-container">
+                        <img src="images/home-label-6.png" class="img-fit img-center">
+                    </div>
+                    <div class="home-segment-10-content">
+                        <p><b>Invite jusqu’à 5 de tes amis à télécharger l'application YOOZ et gagnez chacun 1Go d'internet valable 7 jours !</b></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home-mobile-10">
+                        <img src="images/home-mobile-2-dummy.png" class="img-fit img-center img-max-height-600">
+                        <div class="home-segment-10-carousel">
+
+                            <div id="carousel-mobile" class="carousel slide" data-ride="carousel" data-interval="2500">
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/home-carousel-mobile-1.png" alt="Step 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/home-carousel-mobile-2.png" alt="Step 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/home-carousel-mobile-3.png" alt="Step 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/home-carousel-mobile-4.png" alt="Step 4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/home-carousel-mobile-5.png" alt="Step 5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/home-carousel-mobile-6.png" alt="Step 6">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#carousel-mobile" data-slide="prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-mobile" data-slide="next">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home-segment-11" >
+    <img src="images/qatar/bande-qatar.png">
+</div>
+
+<div class="home-segment-12">
+    <div class="container">
+        <div class="home-segment-12-inner" id="share-and-win">
+            <div class="row" >
+                <div class="col-lg-6 col-md-12 d-flex flex-column align-items-center">
+                    <div class="home-label-12-container">
+                        <img src="images/qatar/Offre-speciale-coupe-du-monde.png" class="img-fit img-center">
+                    </div>
+                    <div class="home-segment-12-content">
+                        <p>
+                            <b>En invitant tes amis à telecharger l'application YOOZ.</b><br>
+                            <b>
+                            Participe au tirage au sort YOOZ & Gagne avec ton ami Yoozer la chance
+                                d'assister à un match de la coupe du monde Qatar 2022
+                            </b>
+                        </p>
+                        <div class="participez">
+                            <img src="images/qatar/Participez.png" alt="participez">
+                        </div>
+                        <div class="download-container no-bottom-margin">
+                            <a href="https://play.google.com/store/apps/details?id=dz.ooredoo.ibiza" class="btn-download">
+                                <img src="images/download-googleplay.png">
+                            </a>
+                            <!--a href="#" class="btn-download">
+                                <img src="images/download-appstore.png">
+                            </a-->
+                            <a href="https://appgallery.huawei.com/#/app/C103964575?sharePrepath=ag&amp%3Blocale=fr_FR&amp%3Bsource=appshare&amp%3Bsubsource=C103964575"
+                               class="btn-download last">
+                                <img src="images/download-huaweiappgallery.png">
+                            </a>
+                        </div>
+                        <div class="terms">
+                            <a href="http://ore.do/terms-wc22" target="_blank">
+                                <img src="images/qatar/termes-et-conditions.png" alt="participez">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12" >
+                 <div class="qatar-carousel-container">
+                     <div class="home-qatar-12">
+                         <div id="carousel-qatar" class="carousel slide" data-ride="carousel" data-interval="2500">
+                             <!-- The slideshow -->
+                             <div class="carousel-inner">
+                                 <div class="carousel-item active">
+                                     <img src="images/qatar/Roogy-04.png" alt="Step 1">
+                                 </div>
+                                 <!--                                    <div class="carousel-item">-->
+                                 <!--                                        <img src="images/home-carousel-mobile-2.png" alt="Step 2">-->
+                                 <!--                                    </div>-->
+                             </div>
+                         </div>
+                         <!-- Left and right controls -->
+<!--                         <a class="carousel-control-prev" href="#carousel-qatar" data-slide="prev">-->
+<!--                             <i class="fas fa-chevron-left"></i>-->
+<!--                         </a>-->
+<!--                         <a class="carousel-control-next" href="#carousel-qatar" data-slide="next">-->
+<!--                             <i class="fas fa-chevron-right"></i>-->
+<!--                         </a>-->
+                     </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-shape-1-container">
+    <img src="images/footer-shape-1.png" class="img-fit">
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="socmed-container">
+            <a href="https://www.facebook.com/YoozDZ" class="btn-socmed"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/yooz_dz/" class="btn-socmed"><i class="fab fa-instagram"></i></a>
+            <!--a href="#" class="btn-socmed"><i class="fab fa-youtube"></i></a-->
+        </div>
+        <div class="post-footer-content">
+            <h5>YOOZ BY OOREDOO © 2021. Tous droits réservés</h5>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            var height = 200; //$(window).height();
+            if ($(this).scrollTop() < height) {
+                $('.navbar').addClass('navbar-transparent');
+            } else {
+                $('.navbar').removeClass('navbar-transparent');
+            }
+        });
+    });
+    const bgVideo = document.getElementById('bg-video');
+
+    bgVideo.addEventListener("pause", () => {
+        // const img = document.getElementById("yooz-vid-cover");
+        // img.classList.remove("disapear");
+        // console.log("paused")
+        bgVideo.play();
+    });
+    const media = document.getElementById('yooz-vid');
+
+    media.addEventListener("playing", () => {
+        const img = document.getElementById("yooz-vid-cover");
+        img.classList.add("disapear");
+        //get element of video-cover yooz-vid-cover
+    });
+
+    media.addEventListener("pause", () => {
+        const img = document.getElementById("yooz-vid-cover");
+        img.classList.remove("disapear");
+    });
+
+
+</script>
+</html>
