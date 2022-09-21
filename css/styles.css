@@ -228,13 +228,13 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding: 70px;
+	padding: 40px;
 
 	/*object-position: center;*/
 }
 
 .world-cup-banner>.share-and-win>a{
-	max-width: 400px;
+	max-width: 320px;
 	width: 100%;
 	height: 100%;
 }

@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row" style="z-index: 200; position: relative; pointer-events: none;">
+        <div class="row" style="z-index: 200; position: relative; pointer-events: none;display: none">
             <div class="col-md-7 yooz-boutoula" >
                 <div class="home-headline">
                     <img src="images/qatar/3iche-el-boutoula.png" alt="3iche-el-boutoula">
@@ -421,12 +421,15 @@
     });
     const bgVideo = document.getElementById('bg-video');
 
-    bgVideo.addEventListener("pause", () => {
-        // const img = document.getElementById("yooz-vid-cover");
-        // img.classList.remove("disapear");
-        // console.log("paused")
-        bgVideo.play();
-    });
+    if(bgVideo){
+        bgVideo.addEventListener("pause", () => {
+            // const img = document.getElementById("yooz-vid-cover");
+            // img.classList.remove("disapear");
+            // console.log("paused")
+            bgVideo.play();
+        });
+    }
+
     const media = document.getElementById('yooz-vid');
 
     media.addEventListener("playing", () => {
