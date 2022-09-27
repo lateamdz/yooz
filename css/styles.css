@@ -684,10 +684,12 @@ p {
 	margin: 0 auto;
 }
 
-
+.home-segment-5-img-separator{
+	margin-bottom: -1200px;
+}
 .home-segment-5 {
 	margin-bottom: -180px;
-	padding-top: 500px;
+	padding-top: 100px;
 	margin-top: -70px;
 }
 .home-segment-5-content {
@@ -708,7 +710,7 @@ p {
 	padding-top: 200px;
 }
 .home-shape-1-container {
-	margin-top: -440px;
+	/*margin-top: -440px;*/
 }
 
 .home-segment-6 {
@@ -1599,6 +1601,15 @@ p {
 
 
 @media only screen and (max-width: 768px) {
+	/*.world-cup-banner>.banner-flags>img{*/
+	/*	height: 24px ;*/
+	/*}*/
+	.home-segment-5-img-separator{
+		margin-bottom: -1400px;
+	}
+	.home-shape-1-container{
+		display: none;
+	}
 	.navbar-transparent .navbar-nav .nav-link span{
 		color: black;
 	}
@@ -1613,9 +1624,11 @@ p {
 	}
 	.world-cup-banner>.share-and-win>a{
 		max-width: 150px;
+		/*max-width: 100px;*/
 	}
 	.world-cup-banner>.share-and-win{
 		padding: 30px;
+		/*padding: 5px;*/
 	}
 	.header-mascot-container {
 		margin-bottom: 10px;
@@ -1690,7 +1703,7 @@ p {
 		margin-bottom: 200px;
 	}
 	.home-shape-1-container {
-		margin-top: -440px;
+		/*margin-top: -440px;*/
 	}
 	.home-shape-2-container {
 		margin-top: -360px;
