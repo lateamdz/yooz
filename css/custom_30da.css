@@ -88,8 +88,21 @@
 }
 /*===================*/
 @media only screen and (max-width: 1100px) {
+    .banner-container{
+        padding: 10px 120px 0px 120px;
+        max-height: 450px;
+    }
     .banner-container .div3 img{
+
         transform: scale(1.5) translate(0,-10%);
+        max-height: 200px;
+    }
+    .banner-container .div1 {
+        min-height: 0px;
+        max-height: 400px;
+    }
+    .banner-container .div2 {
+        max-height: 100px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -127,14 +140,14 @@
     }
     .banner-container .div2 img{
         object-position: unset;
-        max-height: 80px;
+
     }
     .banner-container .div4{
         margin-top: -20%;
         max-width: 100%;
         max-height: 100px;
     }
-    .banner-container .div2  { margin-top: -25%;}
+    .banner-container .div2  { margin-top: -25%;max-height: 140px;}
     .app-links{
         height: 140px;
     }
