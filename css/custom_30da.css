@@ -24,7 +24,7 @@
     isolation: isolate;
     width: 100vw;
     height: 100vh;
-    padding: 80px 40px 180px;
+    padding: 10px 180px 180px;
     max-width: 1500px;
 
     grid-template-columns: repeat(3, 1fr);
