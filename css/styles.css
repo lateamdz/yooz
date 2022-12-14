@@ -56,7 +56,9 @@ button:focus {
 p {
     font-size: 20px;
 }
-
+.bg-white{
+    background-color: white!important;
+}
 .site-logo {
     height: 40px;
 }
@@ -291,6 +293,7 @@ p {
 
 .home-segment-10 {
     margin-bottom: 30px;
+
 }
 
 .home-segment-10 .home-shape-2-container {
@@ -1942,5 +1945,8 @@ p {
 	.home-segment-choose-number .home-shape-2-container{
 		margin-top: -290px;
 	}
+}
+.home-segment-1{
+    position: relative;
 }
 
