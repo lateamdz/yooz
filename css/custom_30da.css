@@ -87,6 +87,27 @@
     object-fit: contain;
 }
 /*===================*/
+@media only screen and (max-width: 1400px) {
+    /*.banner-container{*/
+    /*    padding: 10px 120px 0px 120px;*/
+    /*    max-height: 450px;*/
+    /*}*/
+    .banner-container .div3 img{
+
+        /*transform: scale(1) translate(0,-10%);*/
+        max-height: 246px;
+
+        /*background-color: blue;*/
+
+    }
+    /*.banner-container .div1 {*/
+    /*    min-height: 0px;*/
+    /*    max-height: 400px;*/
+    /*}*/
+    /*.banner-container .div2 {*/
+    /*    max-height: 100px;*/
+    /*}*/
+}
 @media only screen and (max-width: 1100px) {
     .banner-container{
         padding: 10px 120px 0px 120px;
