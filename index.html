@@ -2,7 +2,7 @@
 <!-- by RAY VENENOSO -->
 <html>
 	<head>
-		<title>YOOZ</title>
+        <title>YOOZ</title>
 	  	<meta charset="utf-8">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -15,12 +15,26 @@
 	  	<link rel="icon" type="image/png" href="images/site-icon.png">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/custom_home.css">
+        <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-T1T09J3NZ3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-T1T09J3NZ3'); </script>
+		<script>
+			let isOpen=false
+			function toggle(){
+				console.log("toggled")
+				if(isOpen){
+					$('.animate-with-menu').removeClass('is-open');
+					isOpen=false
+				}else{
+					$('.animate-with-menu').addClass('is-open');
+					isOpen=true
+				}
+			}
+		</script>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top navbar-transparent">
-			<div class="container">
-			  <!-- Toggler/collapsibe Button -->
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container">
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" onclick="toggle()">
 			    <span class="navbar-toggler-icon">
 			    	<i class="fas fa-bars"></i>
 			    </span>
@@ -61,7 +75,7 @@
 			<!--			</video>-->
 
 			<div class="video-banner as-image flex-start-center">
-				<div class="banner-container">
+				<div class="banner-container animate-with-menu">
 					<div class="div1">
 						<img src="images/2023/choisi_ton_num_title.png" alt=""/>
 						<a href="#choose-number" class="call-to-action"><img src="images/2023/call_to_action.png" alt=""/></a>
@@ -77,6 +91,7 @@
 						<div class="app-links">
 							<a href="https://play.google.com/store/apps/details?id=dz.ooredoo.ibiza"></a>
 							<a href="https://appgallery.huawei.com/#/app/C103964575?sharePrepath=ag&amp%3Blocale=fr_FR&amp%3Bsource=appshare&amp%3Bsubsource=C103964575"></a>
+							<a href="https://apps.apple.com/dz/app/yooz/id1558857791?l=fr"></a>
 							<img src="images/2023/google_app_gallery.png" alt=""/></div>
 						</div>
 				</div>
@@ -207,9 +222,9 @@
 									<a href="https://play.google.com/store/apps/details?id=dz.ooredoo.ibiza" class="btn-download">
 										<img src="images/2023/google_play.png">
 									</a>
-									<!--a href="#" class="btn-download">
-                                        <img src="images/download-appstore.png">
-                                    </a-->
+									<a href="https://apps.apple.com/dz/app/yooz/id1558857791?l=fr" class="btn-download">
+                                        <img src="images/2023/app_store.png">
+                                    </a>
 									<a href="https://appgallery.huawei.com/#/app/C103964575?sharePrepath=ag&amp%3Blocale=fr_FR&amp%3Bsource=appshare&amp%3Bsubsource=C103964575" class="btn-download last">
 										<img src="images/2023/app_gallery.png">
 									</a>
@@ -507,24 +522,24 @@
 					<!--a href="#" class="btn-socmed"><i class="fab fa-youtube"></i></a-->
 				</div>
 				<div class="post-footer-content">
-					<h5>YOOZ BY OOREDOO © 2021. Tous droits réservés</h5>
+					<h5>YOOZ BY OOREDOO © 2023. Tous droits réservés</h5>
 				</div>
 			</div>
 		</footer>
 
 	</body>
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-		    $(window).scroll(function() {
-		    	var height = 200; //$(window).height();
-		       if($(this).scrollTop() < height) { 
-		           $('.navbar').addClass('navbar-transparent');
-		       } else {
-		           $('.navbar').removeClass('navbar-transparent');
-		       }
+<!--	<script type="text/javascript">-->
+<!--		$(document).ready(function() {-->
+<!--		    $(window).scroll(function() {-->
+<!--		    	var height = 200; //$(window).height();-->
+<!--		       if($(this).scrollTop() < height) { -->
+<!--		           $('.navbar').addClass('navbar-transparent');-->
+<!--		       } else {-->
+<!--		           $('.navbar').removeClass('navbar-transparent');-->
+<!--		       }-->
 
-		    });
-		});
-	</script>
+<!--		    });-->
+<!--		});-->
+<!--	</script>-->
 </html>

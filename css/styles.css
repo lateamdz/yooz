@@ -1949,4 +1949,10 @@ p {
 .home-segment-1{
     position: relative;
 }
+.animate-with-menu{
+    transition: padding-top 300ms ease;
+}
+.animate-with-menu.is-open{
+    padding-top: 220px;
+}
 
