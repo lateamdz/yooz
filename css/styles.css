@@ -2234,6 +2234,60 @@ p {
 }
 
 /*=====================================================================================================================*/
+.banner-unlimitted {
+    background-color: #cb2c30 !important;
+    position: relative;
+    isolation: isolate;
+}
+
+.banner-unlimitted .banner-unlimitted-container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.banner-unlimitted .banner-unlimitted-container .unlimitted-title img{
+    object-position: top;
+}
+.banner-unlimitted .banner-unlimitted-container .unlimitted-title {
+    height: 100%;
+    width: 50%
+}
+
+.banner-unlimitted .banner-unlimitted-container .unlimitted-roogy {
+    height: 100%;
+    width: 50%
+}
+
+.banner-unlimitted .banner-unlimitted-footer {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.banner-unlimitted .banner-unlimitted-footer .store-links {
+    height: 100%;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    margin-top: -4%;
+}
+
+.banner-unlimitted .banner-unlimitted-footer .unlimitted-yooz {
+    height: 100%;
+    width: 50%;
+    margin-top: -4%;
+}
+@media only screen and (max-width: 768px) {
+    .banner-unlimitted .banner-unlimitted-container .unlimitted-title {
+        transform: scale(1.5);
+        transform-origin: top left;
+    }
+    .banner-unlimitted .banner-unlimitted-footer .store-links {
+        margin-top: -8%;
+    }
+}
+/*=====================================================================================================================*/
 .banner-snapchat {
     background-color: #fcff02 !important;
     position: relative;
@@ -2388,10 +2442,11 @@ p {
 }
 
 /*==========================================================================*/
-#root{
+#root {
     margin-top: 0;
 }
-.mon-monde-container{
+
+.mon-monde-container {
     padding: 20px 8%;
     padding-top: 40px;
     width: 100%;
@@ -2401,24 +2456,30 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-family: "Ooredoo-Heavy",sans-serif;
+    font-family: "Ooredoo-Heavy", sans-serif;
 }
-.offer-tabs.mobile{
-    margin-top: 0!important;
+
+.offer-tabs.mobile {
+    margin-top: 0 !important;
 }
-.mon-monde-container h1{
+
+.mon-monde-container h1 {
     font-weight: 900;
 }
-.forfait-mon-monde-header p,h4{
+
+.forfait-mon-monde-header p, h4 {
     font-size: 22px;
 }
-.forfait-mon-monde-header{
+
+.forfait-mon-monde-header {
     margin-top: 40px;
 }
+
 .text-purple {
     color: #6300d5;
     font-weight: 900;
 }
+
 .forfait-ramadan-header {
     width: 100%;
     max-width: 600px;
@@ -2430,34 +2491,40 @@ p {
     object-fit: contain;
 }
 
-.forfait-ramadan-header .forfait-content p{
+.forfait-ramadan-header .forfait-content p {
     text-align: center;
 }
+
 .forfait-ramadan-header .forfait-content {
     width: 80%;
     display: flex;
     flex-direction: column;
 }
-.arrow-button-heading{
-    margin-top: -10px!important;
+
+.arrow-button-heading {
+    margin-top: -10px !important;
 }
+
 @media only screen and (max-width: 768px) {
-    .mon-monde-container{
+    .mon-monde-container {
         /*margin-top: -37vh;*/
         position: absolute;
         top: 80vh;
         left: 0;
         z-index: 1001;
     }
-    .forfait-mon-monde-header p,h4{
+
+    .forfait-mon-monde-header p, h4 {
         font-size: 18px;
     }
 }
+
 @media only screen and (max-width: 400px) {
-    #root{
+    #root {
         margin-top: 90%;
     }
 }
+
 /*==========================================================================*/
 .yooz-app-links {
     transform: scale(0.8);
