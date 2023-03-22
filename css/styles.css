@@ -1338,14 +1338,17 @@ p {
 .img-max-500 {
     max-width: 500px;
 }
-.img-mirror{
+
+.img-mirror {
     transform: scaleX(-1);
 }
-.text-dark{
-    color: #212529!important;
+
+.text-dark {
+    color: #212529 !important;
     font-weight: 700;
     font-size: 24px;
 }
+
 /** CAROUSEL **/
 .carousel-indicators li {
     display: inline-block;
@@ -1785,7 +1788,6 @@ p {
     /*.home-segment-6 {*/
     /*    margin-top: 200px;*/
     /*}*/
-
     .segment-6-logo {
         width: 80%;
         margin: 0 auto;
@@ -1969,15 +1971,16 @@ p {
 }
 
 /*=====================================================================================================================*/
-.white-gradient{
+.white-gradient {
     pointer-events: none;
     width: 100%;
     height: 20vh;
     bottom: -18px;
     z-index: 20;
     position: absolute;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
 }
+
 #carousel-banner {
     width: 100vw;
     height: calc(100vh - 66px);
@@ -1994,9 +1997,10 @@ p {
     height: 100%;
     overflow: unset !important;
 }
-#carousel-banner .carousel-control-prev,#carousel-banner .carousel-control-next {
-padding-left: 20px;
-padding-right: 20px;
+
+#carousel-banner .carousel-control-prev, #carousel-banner .carousel-control-next {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -2004,12 +2008,13 @@ padding-right: 20px;
         height: 64vh;
         /*height: 270px;*/
     }
+
     /*#carousel-banner .carousel-item {*/
     /*    margin-top: -75px;*/
     /*    height: 100%;*/
     /*    padding-top: 76px;*/
     /*}*/
-    .white-gradient{
+    .white-gradient {
         height: 10vh;
     }
 }
@@ -2019,22 +2024,26 @@ padding-right: 20px;
         margin-top: -45vh;
     }
 }
+
 .home-header.new-banner {
     min-height: 120vh;
     height: 100vh;
     display: block;
 }
-.img-contain{
+
+.img-contain {
     width: 100%;
     height: 100%;
     object-fit: contain;
     overflow: hidden;
 }
+
 /*=====================================================================================================================*/
 .carousel-banner {
     height: 100%;
     width: 100%;
 }
+
 /*=====================================================================================================================*/
 .banner-my-number {
     background-color: #ffd028 !important;
@@ -2043,23 +2052,27 @@ padding-right: 20px;
     display: flex;
     flex-direction: column-reverse;
 }
-.banner-my-number .my-number-header{
+
+.banner-my-number .my-number-header {
     width: 100%;
     height: 50%;
     position: relative;
     isolation: isolate;
 }
-.banner-my-number .my-number-container{
+
+.banner-my-number .my-number-container {
     display: flex;
     width: 100%;
     height: 50%;
 }
-.banner-my-number .my-number-container .store-links p{
+
+.banner-my-number .my-number-container .store-links p {
     font-size: 60%;
     margin-bottom: 0;
     max-width: 300px;
 }
-.banner-my-number .my-number-container .store-links{
+
+.banner-my-number .my-number-container .store-links {
     width: 40%;
     height: 100%;
     /*background-color: #ccffc0;*/
@@ -2068,40 +2081,49 @@ padding-right: 20px;
     place-items: center;
     padding-bottom: 20%;
 }
-.banner-my-number .my-number-container .my-number-guy img{
+
+.banner-my-number .my-number-container .my-number-guy img {
     transform: translateX(-15%) scale(1.4);
     transform-origin: bottom left;
     object-position: bottom left;
 }
-.banner-my-number .my-number-container .my-number-guy{
+
+.banner-my-number .my-number-container .my-number-guy {
     z-index: 1;
     width: 60%;
     height: 100%;
     /*background-color: #54c24c;*/
 }
-.banner-my-number .my-number-header .my-number-header-1 img{
+
+.banner-my-number .my-number-header .my-number-header-1 img {
     object-position: top left;
 }
-.banner-my-number .my-number-header .my-number-header-1{
+
+.banner-my-number .my-number-header .my-number-header-1 {
     width: 80%;
     height: 60%;
     /*background-color: #4c7fc2;*/
 }
-.banner-my-number .my-number-header .my-number-header-2 a{
+
+.banner-my-number .my-number-header .my-number-header-2 a {
     height: 80%;
 }
-.banner-my-number .my-number-header .my-number-header-2 img{
+
+.banner-my-number .my-number-header .my-number-header-2 img {
     object-position: bottom left;
 }
-.banner-my-number .my-number-header .my-number-header-2{
+
+.banner-my-number .my-number-header .my-number-header-2 {
     width: 80%;
     height: 40%;
     display: flex;
 }
-.banner-my-number .my-number-header .my-number-yooz-logo img{
+
+.banner-my-number .my-number-header .my-number-yooz-logo img {
     object-position: top right;
 }
-.banner-my-number .my-number-header .my-number-yooz-logo{
+
+.banner-my-number .my-number-header .my-number-yooz-logo {
     width: 20%;
     height: 100%;
     /*margin-top: -50%;*/
@@ -2125,19 +2147,21 @@ padding-right: 20px;
     flex-wrap: nowrap;
 }
 
-.banner-ramadan .ramadan-banner-header .ramadan-title img{
+.banner-ramadan .ramadan-banner-header .ramadan-title img {
     object-position: left;
 }
+
 .banner-ramadan .ramadan-banner-header .ramadan-title {
     /*background-color: #48bade;*/
     width: 80%;
     height: 100%;
 }
 
-.banner-ramadan .ramadan-banner-header .ramadan-logo img{
+.banner-ramadan .ramadan-banner-header .ramadan-logo img {
     object-position: right;
     padding: 0 20px;
 }
+
 .banner-ramadan .ramadan-banner-header .ramadan-logo {
     /*background-color: #0f5d77;*/
     width: 20%;
@@ -2161,11 +2185,12 @@ padding-right: 20px;
     padding-bottom: 2%;
 }
 
-.banner-ramadan .ramadan-promo .ramadan-person img{
+.banner-ramadan .ramadan-promo .ramadan-person img {
     object-position: bottom;
     /*transform: scale(1.08);*/
     /*transform-origin: bottom right;*/
 }
+
 .banner-ramadan .ramadan-promo .ramadan-person {
     /*background-color: #96242e;*/
     width: 40%;
@@ -2215,16 +2240,19 @@ padding-right: 20px;
     isolation: isolate;
     display: flex;
 }
-.banner-snapchat .snap-header{
+
+.banner-snapchat .snap-header {
     width: 35%;
     height: 100%;
 }
-.banner-snapchat .snap-girl-container{
+
+.banner-snapchat .snap-girl-container {
     width: 65%;
     height: 100%;
     display: flex;
 }
-.banner-snapchat .snap-girl-container .store-links{
+
+.banner-snapchat .snap-girl-container .store-links {
     width: 40%;
     height: 100%;
     /*background-color: pink;*/
@@ -2233,72 +2261,89 @@ padding-right: 20px;
     justify-content: center;
     padding-bottom: 10%;
 }
-.banner-snapchat .snap-girl-container .snap-girl img{
+
+.banner-snapchat .snap-girl-container .snap-girl img {
     object-position: bottom left;
     transform: scale(1.15) translate(-8%, -5%);
     transform-origin: bottom right;
 }
-.banner-snapchat .snap-girl-container .snap-girl{
+
+.banner-snapchat .snap-girl-container .snap-girl {
     width: 60%;
     height: 100%;
     /*background-color: #c24c5b;*/
 }
-.banner-snapchat .snap-header .snap-header-1 img{
+
+.banner-snapchat .snap-header .snap-header-1 img {
     transform: translateX(-40%) scale(1.25);
 }
-.banner-snapchat .snap-header .snap-header-1{
+
+.banner-snapchat .snap-header .snap-header-1 {
     width: 100%;
     height: 35%;
     /*background-color: #4cc252;*/
 }
-.banner-snapchat .snap-header .snap-header-2{
+
+.banner-snapchat .snap-header .snap-header-2 {
     width: 100%;
     height: 15%;
     /*background-color: #36a13b;*/
 }
-.banner-snapchat .snap-header .snap-yooz-logo img{
+
+.banner-snapchat .snap-header .snap-yooz-logo img {
     object-position: top right;
 }
-.banner-snapchat .snap-header .snap-yooz-logo{
+
+.banner-snapchat .snap-header .snap-yooz-logo {
     width: 100%;
     height: 50%;
     /*background-color: #156e19;*/
 }
+
 @media only screen and (max-width: 768px) {
     .banner-snapchat {
         flex-direction: column-reverse;
     }
-    .banner-snapchat .snap-girl-container .store-links{
+
+    .banner-snapchat .snap-girl-container .store-links {
         width: 40%;
     }
-    .banner-snapchat  .snap-girl-container .snap-girl img{
+
+    .banner-snapchat .snap-girl-container .snap-girl img {
         transform: scale(1.45) translate(12%, -5%);
     }
-    .banner-snapchat  .snap-girl-container .snap-girl{
+
+    .banner-snapchat .snap-girl-container .snap-girl {
         width: 60%;
     }
-    .banner-snapchat  .snap-header{
+
+    .banner-snapchat .snap-header {
         width: 100%;
         height: 30%;
         position: relative;
         isolation: isolate;
     }
-    .banner-snapchat .snap-girl-container{
+
+    .banner-snapchat .snap-girl-container {
         width: 100%;
         height: 70%;
     }
-    .banner-snapchat .snap-header .snap-header-1 img{
+
+    .banner-snapchat .snap-header .snap-header-1 img {
         transform: unset;
     }
-    .banner-snapchat .snap-header .snap-header-1{
+
+    .banner-snapchat .snap-header .snap-header-1 {
         width: 60%;
         height: 50%;
     }
-    .banner-snapchat .snap-header .snap-header-2{
+
+    .banner-snapchat .snap-header .snap-header-2 {
         width: 50%;
         height: 50%;
     }
-    .banner-snapchat .snap-header .snap-yooz-logo{
+
+    .banner-snapchat .snap-header .snap-yooz-logo {
         width: 40%;
         height: 100%;
         /*margin-top: -50%;*/
@@ -2307,23 +2352,28 @@ padding-right: 20px;
         right: 0;
     }
 }
-#snapchat.home-segment-10{
+
+#snapchat.home-segment-10 {
     position: relative;
     isolation: isolate;
 }
-#snapchat .home-mobile-2{
+
+#snapchat .home-mobile-2 {
     padding-top: 100px;
 }
-#snapchat .home-segment-10-content{
+
+#snapchat .home-segment-10-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#snapchat .img-snap-logo{
+
+#snapchat .img-snap-logo {
     max-width: 80%;
 }
-#snapchat .snapchat-shape-container{
+
+#snapchat .snapchat-shape-container {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -2331,20 +2381,92 @@ padding-right: 20px;
 }
 
 @media only screen and (max-width: 768px) {
-    #snapchat .snapchat-shape-container{
+    #snapchat .snapchat-shape-container {
         bottom: auto;
         top: 32%;
     }
 }
 
 /*==========================================================================*/
-.yooz-app-links{
+#root{
+    margin-top: 0;
+}
+.mon-monde-container{
+    padding: 20px 8%;
+    padding-top: 40px;
+    width: 100%;
+    margin-top: -12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Ooredoo-Heavy",sans-serif;
+}
+.offer-tabs.mobile{
+    margin-top: 0!important;
+}
+.mon-monde-container h1{
+    font-weight: 900;
+}
+.forfait-mon-monde-header p,h4{
+    font-size: 22px;
+}
+.forfait-mon-monde-header{
+    margin-top: 40px;
+}
+.text-purple {
+    color: #6300d5;
+    font-weight: 900;
+}
+.forfait-ramadan-header {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+}
+
+.forfait-ramadan-header .ramadan-moon {
+    width: 10%;
+    object-fit: contain;
+}
+
+.forfait-ramadan-header .forfait-content p{
+    text-align: center;
+}
+.forfait-ramadan-header .forfait-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.arrow-button-heading{
+    margin-top: -10px!important;
+}
+@media only screen and (max-width: 768px) {
+    .mon-monde-container{
+        /*margin-top: -37vh;*/
+        position: absolute;
+        top: 80vh;
+        left: 0;
+        z-index: 1001;
+    }
+    .forfait-mon-monde-header p,h4{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #root{
+        margin-top: 90%;
+    }
+}
+/*==========================================================================*/
+.yooz-app-links {
     transform: scale(0.8);
     position: relative;
     isolation: isolate;
     max-width: 200px;
 }
-.yooz-app-links .real-links{
+
+.yooz-app-links .real-links {
     position: absolute;
     top: 0;
     left: 0;
@@ -2352,6 +2474,7 @@ padding-right: 20px;
     width: 100%;
 
 }
+
 .yooz-app-links .real-links a {
     width: 100%;
     height: 33.33%;
