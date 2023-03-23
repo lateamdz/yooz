@@ -2429,7 +2429,7 @@ p {
 
 #snapchat .snapchat-shape-container {
     position: absolute;
-    bottom: 0;
+    bottom: -56px;
     width: 100%;
     z-index: -1;
 }
