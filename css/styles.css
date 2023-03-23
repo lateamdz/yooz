@@ -1969,9 +1969,11 @@ p {
 .animate-with-menu.is-open {
     padding-top: 220px;
 }
-.small-mobile-carousel{
-    transform: scale(0.8)!important;
+
+.small-mobile-carousel {
+    transform: scale(0.8) !important;
 }
+
 /*=====================================================================================================================*/
 .white-gradient {
     /*pointer-events: none;*/
@@ -1987,7 +1989,7 @@ p {
     width: 100%;
     height: 100%;
     bottom: -18px;
-    left:0;
+    left: 0;
     z-index: 20;
     position: absolute;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 95%);
@@ -2095,7 +2097,7 @@ p {
 }
 
 .banner-my-number .my-number-container .my-number-guy img {
-    transform: translateX(-17%) scale(1.2);
+    transform: translateX(-17%) scale(1.6);
     transform-origin: bottom left;
     object-position: bottom left;
 }
@@ -2143,6 +2145,28 @@ p {
     top: 0;
     right: 0;
     /*background-color: #15496e;*/
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-my-number .my-number-header .my-number-yooz-logo {
+        display: none;
+    }
+
+    .banner-my-number .my-number-header .my-number-header-2 a img{
+        object-position: center;
+    }
+    .banner-my-number .my-number-header .my-number-header-1 img {
+        object-position: center;
+    }
+    .banner-my-number .my-number-header .my-number-header-2 {
+        width: 100%;
+    }
+    .banner-my-number .my-number-header .my-number-header-1 {
+        width: 100%;
+    }
+    .banner-my-number .my-number-container .my-number-guy img {
+        transform: translateX(-17%) scale(1.2);
+    }
 }
 
 /*=====================================================================================================================*/
@@ -2218,11 +2242,12 @@ p {
 @media only screen and (max-width: 768px) {
 
     .banner-ramadan .ramadan-banner-header .ramadan-title {
-        width: 50%;
+        width: 100%;
     }
 
     .banner-ramadan .ramadan-banner-header .ramadan-logo {
         width: 50%;
+        display: none;
     }
 
     .banner-ramadan .ramadan-promo .store-links {
@@ -2258,9 +2283,10 @@ p {
     display: flex;
 }
 
-.banner-unlimitted .banner-unlimitted-container .unlimitted-title img{
+.banner-unlimitted .banner-unlimitted-container .unlimitted-title img {
     object-position: top;
 }
+
 .banner-unlimitted .banner-unlimitted-container .unlimitted-title {
     height: 100%;
     width: 50%
@@ -2290,15 +2316,18 @@ p {
     width: 50%;
     margin-top: -4%;
 }
+
 @media only screen and (max-width: 768px) {
     .banner-unlimitted .banner-unlimitted-container .unlimitted-title {
         transform: scale(1.5);
         transform-origin: top left;
     }
+
     .banner-unlimitted .banner-unlimitted-footer .store-links {
         margin-top: -8%;
     }
 }
+
 /*=====================================================================================================================*/
 .banner-snapchat {
     background-color: #fcff02 !important;
@@ -2544,11 +2573,13 @@ p {
     isolation: isolate;
     width: 150px;
 }
+
 @media only screen and (max-width: 600px) {
     .yooz-app-links {
         transform: scale(0.7) translateY(-14px);
     }
 }
+
 .yooz-app-links .real-links {
     position: absolute;
     top: 0;
