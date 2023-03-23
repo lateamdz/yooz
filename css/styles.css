@@ -1969,7 +1969,9 @@ p {
 .animate-with-menu.is-open {
     padding-top: 220px;
 }
-
+.small-mobile-carousel{
+    transform: scale(0.8)!important;
+}
 /*=====================================================================================================================*/
 .white-gradient {
     pointer-events: none;
