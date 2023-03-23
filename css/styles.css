@@ -2083,7 +2083,7 @@ p {
 }
 
 .banner-my-number .my-number-container .my-number-guy img {
-    transform: translateX(-15%) scale(1.4);
+    transform: translateX(-17%) scale(1.2);
     transform-origin: bottom left;
     object-position: bottom left;
 }
