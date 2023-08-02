@@ -666,7 +666,7 @@ p {
 
 .home-how-item-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
 }
@@ -680,7 +680,7 @@ p {
 
 .home-how-item-content {
     padding: 30px 0;
-    max-width: 300px;
+    max-width: 420px;
     margin: 0 auto;
 }
 
@@ -2167,7 +2167,7 @@ p {
         width: 100%;
     }
     .banner-my-number .my-number-header .my-number-header-1 {
-        width: 100%;
+            width: 100%;
     }
     .banner-my-number .my-number-container .my-number-guy img {
         transform: translateX(-17%) scale(1.2);
@@ -2567,7 +2567,7 @@ p {
 
 @media only screen and (max-width: 400px) {
     #root {
-        margin-top: 90%;
+        margin-top: 16%;
     }
 }
 
