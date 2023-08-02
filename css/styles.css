@@ -2022,6 +2022,7 @@ p {
         bottom: -12%;
     }
 }
+
 @media only screen and (max-width: 768px) {
     #carousel-banner {
         height: 64vh;
@@ -2062,7 +2063,9 @@ p {
     height: 100%;
     width: 100%;
 }
-
+#carousel-banner>.carousel-control-next, #carousel-banner>.carousel-control-prev{
+    width: 100px!important;
+}
 /*=====================================================================================================================*/
 .banner-my-number {
     background-color: #ffd028 !important;
@@ -2157,20 +2160,129 @@ p {
         display: none;
     }
 
-    .banner-my-number .my-number-header .my-number-header-2 a img{
+    .banner-my-number .my-number-header .my-number-header-2 a img {
         object-position: center;
     }
+
     .banner-my-number .my-number-header .my-number-header-1 img {
         object-position: center;
     }
+
     .banner-my-number .my-number-header .my-number-header-2 {
         width: 100%;
     }
+
     .banner-my-number .my-number-header .my-number-header-1 {
-            width: 100%;
+        width: 100%;
     }
+
     .banner-my-number .my-number-container .my-number-guy img {
         transform: translateX(-17%) scale(1.2);
+    }
+}
+
+/*=====================================================================================================================*/
+.banner-internet-x2 {
+    background-color: #f04e99 !important;
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-internet-x2 .woman-standing {
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    right: 0;
+}
+
+.banner-internet-x2 .woman-banner-text > img {
+    object-position: right;
+}
+
+.banner-internet-x2 .woman-banner-text {
+    position: absolute;
+    height: 70%;
+    width: 55%;
+    top: 0;
+    left: 0;
+}
+
+.banner-internet-x2 .download-links p {
+    margin: 0;
+    font-size: 90%;
+}
+
+.banner-internet-x2 .download-links {
+    position: absolute;
+    height: 30%;
+    width: 55%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-internet-x2 .woman-yooz-app-links {
+    width: 100%;
+    display: flex;
+    padding: 10px 25px;
+    max-width: 650px;
+}
+
+.banner-internet-x2 .woman-yooz-app-links .one-link a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner-internet-x2 .woman-yooz-app-links .one-link {
+    flex: 1;
+    /*background-color: #009afc;*/
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-internet-x2 .woman-standing {
+        height: 50%;
+        width: 50%;
+        top: 50%;
+        right: 0;
+    }
+
+    .banner-internet-x2 .woman-banner-text {
+        height: 50%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .banner-internet-x2 .download-links {
+        height: 50%;
+        width: 50%;
+        bottom: 0;
+        left: 0;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        max-width: 500px;
+        padding: 0 10px;
+    }
+
+    .banner-internet-x2 .woman-yooz-app-links {
+        flex-direction: column;
+        padding: 0;
+        transform: scale(0.75);
+    }
+
+    .banner-internet-x2 .woman-yooz-app-links .one-link {
+        flex: auto;
     }
 }
 
