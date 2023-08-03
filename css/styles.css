@@ -2283,6 +2283,11 @@ p {
     position: relative;
 }
 
+@media only screen and (max-width: 500px) {
+    .banner-internet-x2 .download-links p {
+    font-size: 50%;
+    }
+}
 @media only screen and (max-width: 768px) {
     .banner-internet-x2 .woman-standing {
         height: 50%;
