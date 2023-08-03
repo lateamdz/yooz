@@ -9,7 +9,38 @@
 	MINT 			- 00ff7e
 	RED 			- e74f60
 **/
-
+@font-face {
+    font-family: KufiArabic-black;
+    src: url('../fonts/NotoKufiArabic-Black.ttf') format('truetype');;
+}
+@font-face {
+    font-family: KufiArabic-bold;
+    src: url('../fonts/NotoKufiArabic-Bold.ttf') format('truetype');;
+}
+@font-face {
+    font-family: KufiArabic-extra-bold;
+    src: url('../fonts/NotoKufiArabic-ExtraBold.ttf') format('truetype');;
+}
+@font-face {
+    font-family: KufiArabic-light;
+    src: url('../fonts/NotoKufiArabic-Light.ttf') format('truetype');;
+}
+@font-face {
+    font-family: KufiArabic-medium;
+    src: url('../fonts/NotoKufiArabic-Medium.ttf') format('truetype');;
+}
+@font-face {
+    font-family: KufiArabic-regular;
+    src: url('../fonts/NotoKufiArabic-Regular.ttf') format('truetype');;
+}
+@font-face {
+    font-family: KufiArabic-semi-bold;
+    src: url('../fonts/NotoKufiArabic-SemiBold.ttf') format('truetype');;
+}
+@font-face {
+    font-family: KufiArabic-thin;
+    src: url('../fonts/NotoKufiArabic-Thin.ttf') format('truetype');;
+}
 @font-face {
     font-family: D-Din;
     src: url('../fonts/D-DIN-Bold.otf');
@@ -57,6 +88,9 @@ p {
     font-size: 20px;
 }
 
+.text-ar{
+    font-family: 'KufiArabic-black', sans-serif;
+}
 .bg-white {
     background-color: white !important;
 }
