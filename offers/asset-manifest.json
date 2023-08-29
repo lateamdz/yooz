@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.eaa23b2a.chunk.css",
-    "main.js": "./static/js/main.a3610302.chunk.js",
-    "main.js.map": "./static/js/main.a3610302.chunk.js.map",
+    "main.js": "./static/js/main.2f308c15.chunk.js",
+    "main.js.map": "./static/js/main.2f308c15.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.11efa22d.js",
     "runtime-main.js.map": "./static/js/runtime-main.11efa22d.js.map",
     "static/js/2.55ddc76d.chunk.js": "./static/js/2.55ddc76d.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "./index.html",
     "static/css/main.eaa23b2a.chunk.css.map": "./static/css/main.eaa23b2a.chunk.css.map",
     "static/js/2.55ddc76d.chunk.js.LICENSE.txt": "./static/js/2.55ddc76d.chunk.js.LICENSE.txt",
-    "static/media/30da.d7a27cb1.svg": "./static/media/30da.d7a27cb1.svg",
+    "static/media/30da.c9bd316c.svg": "./static/media/30da.c9bd316c.svg",
     "static/media/Midnight.7a5b0ceb.svg": "./static/media/Midnight.7a5b0ceb.svg",
     "static/media/ROOGY_hand_phone.ac0e4ac2.png": "./static/media/ROOGY_hand_phone.ac0e4ac2.png",
     "static/media/RoogyFichier 1.a42a567e.png": "./static/media/RoogyFichier 1.a42a567e.png",
@@ -52,6 +52,9 @@
     "static/media/snapchat.d8b36350.svg": "./static/media/snapchat.d8b36350.svg",
     "static/media/speech_pop_up_left_2.fe253570.svg": "./static/media/speech_pop_up_left_2.fe253570.svg",
     "static/media/speech_pop_up_right_2.5c1e697c.svg": "./static/media/speech_pop_up_right_2.5c1e697c.svg",
+    "static/media/tiktok_1go.a2beff06.svg": "./static/media/tiktok_1go.a2beff06.svg",
+    "static/media/tiktok_2go.630df890.svg": "./static/media/tiktok_2go.630df890.svg",
+    "static/media/tiktok_4go.75d0a349.svg": "./static/media/tiktok_4go.75d0a349.svg",
     "static/media/whatsapp.61421638.svg": "./static/media/whatsapp.61421638.svg",
     "static/media/yooz-power.6d0cd096.jpg": "./static/media/yooz-power.6d0cd096.jpg",
     "static/media/yoozmob-cta-1.1d1ba90c.png": "./static/media/yoozmob-cta-1.1d1ba90c.png",
@@ -61,6 +64,6 @@
     "static/js/runtime-main.11efa22d.js",
     "static/js/2.55ddc76d.chunk.js",
     "static/css/main.eaa23b2a.chunk.css",
-    "static/js/main.a3610302.chunk.js"
+    "static/js/main.2f308c15.chunk.js"
   ]
 }

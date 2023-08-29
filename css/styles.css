@@ -13,34 +13,42 @@
     font-family: KufiArabic-black;
     src: url('../fonts/NotoKufiArabic-Black.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: KufiArabic-bold;
     src: url('../fonts/NotoKufiArabic-Bold.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: KufiArabic-extra-bold;
     src: url('../fonts/NotoKufiArabic-ExtraBold.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: KufiArabic-light;
     src: url('../fonts/NotoKufiArabic-Light.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: KufiArabic-medium;
     src: url('../fonts/NotoKufiArabic-Medium.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: KufiArabic-regular;
     src: url('../fonts/NotoKufiArabic-Regular.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: KufiArabic-semi-bold;
     src: url('../fonts/NotoKufiArabic-SemiBold.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: KufiArabic-thin;
     src: url('../fonts/NotoKufiArabic-Thin.ttf') format('truetype');;
 }
+
 @font-face {
     font-family: D-Din;
     src: url('../fonts/D-DIN-Bold.otf');
@@ -88,9 +96,10 @@ p {
     font-size: 20px;
 }
 
-.text-ar{
+.text-ar {
     font-family: 'KufiArabic-black', sans-serif;
 }
+
 .bg-white {
     background-color: white !important;
 }
@@ -1447,6 +1456,12 @@ p {
     position: relative;
 }
 
+.retail-segment-3.dir-laffair-m3a-yooz  .home-shape-2-container > img{
+    margin-top: 15%;
+}
+.retail-segment-3.dir-laffair-m3a-yooz  .home-shape-2-container{
+
+}
 
 @media only screen and (min-width: 1025px) {
     .header-mascot-container {
@@ -1990,6 +2005,10 @@ p {
     .home-segment-choose-number .home-shape-2-container {
         margin-top: -290px;
     }
+    .retail-segment-3.dir-laffair-m3a-yooz  .home-shape-2-container {
+        margin-top: 128%;
+        scale: 3;
+    }
 }
 
 .home-segment-1 {
@@ -2097,9 +2116,11 @@ p {
     height: 100%;
     width: 100%;
 }
-#carousel-banner>.carousel-control-next, #carousel-banner>.carousel-control-prev{
-    width: 100px!important;
+
+#carousel-banner > .carousel-control-next, #carousel-banner > .carousel-control-prev {
+    width: 100px !important;
 }
+
 /*=====================================================================================================================*/
 .banner-my-number {
     background-color: #ffd028 !important;
@@ -2216,6 +2237,133 @@ p {
 }
 
 /*=====================================================================================================================*/
+.banner-fayda {
+    background-color: #ffd102 !important;
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-fayda .fayda-title {
+    padding: 34px;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+}
+.banner-fayda .fayda-title .img-contain{
+    object-position: top;
+}
+
+.banner-fayda .download-links {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-fayda .yooz-fayda-logos .img-contain{
+    max-width: 260px;
+}
+.banner-fayda .yooz-fayda-logos {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.banner-fayda .sandwich-man {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 50%;
+    top: 20%;
+}
+.banner-fayda .download-links p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.banner-fayda .list-of-app-links {
+    width: 100%;
+    display: flex;
+    padding: 10px 25px;
+    max-width: 650px;
+}
+
+.banner-fayda .list-of-app-links .one-link a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-fayda .list-of-app-links .one-link {
+    flex: 1;
+    /*background-color: #009afc;*/
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-fayda .fayda-title {
+        padding: 16px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 30%;
+    }
+
+    .banner-fayda .download-links {
+        left: 0;
+        top: 30%;
+        width: 100%;
+        height: 10%;
+    }
+
+    .banner-fayda .yooz-fayda-logos {
+        left: 0;
+        top: 40%;
+        width: 100%;
+        height: 10%;
+        padding: 8px;
+        justify-content: center;
+    }
+
+    .banner-fayda .sandwich-man {
+        left: 0;
+        top: 50%;
+        width: 100%;
+        height: 50%;
+    }
+    .banner-fayda .download-links {
+        justify-content: center;
+    }
+    .banner-fayda .download-links p{
+        font-size: 60%;
+    }
+    .banner-fayda .list-of-app-links {
+        width: 100%;
+        padding: 0;
+        max-width: 250px;
+    }
+    .banner-fayda .list-of-app-links .one-link{
+        height: 30px;
+    }
+}
+
+/*=====================================================================================================================*/
 .banner-internet-x2 {
     background-color: #f04e99 !important;
     position: relative;
@@ -2275,6 +2423,7 @@ p {
     top: 0;
     left: 0;
 }
+
 .banner-internet-x2 .woman-yooz-app-links .one-link {
     flex: 1;
     /*background-color: #009afc;*/
@@ -2285,9 +2434,10 @@ p {
 
 @media only screen and (max-width: 500px) {
     .banner-internet-x2 .download-links p {
-    font-size: 50%;
+        font-size: 50%;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .banner-internet-x2 .woman-standing {
         height: 50%;
