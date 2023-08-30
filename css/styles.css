@@ -1906,7 +1906,9 @@ p {
         width: 37.5%;
         height: 58%;
     }
-
+    .retail-segment-1 {
+        margin-top: -150px;
+    }
     .retail-segment-1 p {
         font-size: 20px;
         padding: 0;
