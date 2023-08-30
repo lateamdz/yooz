@@ -1456,11 +1456,14 @@ p {
     position: relative;
 }
 
-.retail-segment-3.dir-laffair-m3a-yooz  .home-shape-2-container > img{
-    margin-top: 15%;
+.dir-laffair-m3a-yooz {
+    position: relative;
+    overflow-x: hidden;
 }
-.retail-segment-3.dir-laffair-m3a-yooz  .home-shape-2-container{
-
+.dir-laffair-m3a-yooz  > img{
+    /*margin-top: 15%;*/
+    position: absolute;
+    bottom: 20%;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1732,6 +1735,12 @@ p {
 
 
 @media only screen and (max-width: 768px) {
+    .dir-laffair-m3a-yooz  {
+        top: -100px;
+    }
+    .dir-laffair-m3a-yooz  > img{
+        transform: scale(3);
+    }
     .header-mascot-container {
         margin-bottom: 10px;
     }
@@ -1907,7 +1916,7 @@ p {
         height: 58%;
     }
     .retail-segment-1 {
-        margin-top: -150px;
+        margin-top: -250px;
     }
     .retail-segment-1 p {
         font-size: 20px;
@@ -2004,13 +2013,6 @@ p {
         min-height: 500px;
     }
 
-    .home-segment-choose-number .home-shape-2-container {
-        margin-top: -290px;
-    }
-    .retail-segment-3.dir-laffair-m3a-yooz  .home-shape-2-container {
-        margin-top: 128%;
-        scale: 3;
-    }
 }
 
 .home-segment-1 {
